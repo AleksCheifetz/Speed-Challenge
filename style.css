@@ -1,16 +1,22 @@
 * {
   font: "Monospace";
+  font-weight: bold;
+  font-size: 200px;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .box {
   background-color: rgb(16, 227, 216);
+  color: rgb(255, 255, 255);
   height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 900px) {
